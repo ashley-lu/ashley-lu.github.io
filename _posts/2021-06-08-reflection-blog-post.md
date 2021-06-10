@@ -33,3 +33,7 @@ Our group, The Travelers, managed to create a functioning web-app that contains 
 - I don't know exactly what my career goals are yet, since I've only just completed my first year in college. I hope that whatever I decide to do, it includes a little bit of Computer Science in it. This project helped me realize that though I might not be completing a CS degree and I might not become a SWE, I still enjoy coding and CS and I want to keep learning.
 
 Thanks to everyone in PIC 16B for a great quarter, and I hope that I can share more classes with you all in the future!
+
+Please check out Jaya and Stancy's blog posts to see their perspective on our group project:
+https://jren99.github.io/traveller-project-reflection/
+https://stancyzhang.github.io/Reflection-Blog-Post/
