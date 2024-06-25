@@ -1,0 +1,94 @@
+footer {
+    grid-area: footer;
+    text-align: center;
+    font-size: 1.2vw;
+    padding-top: 8vw;
+    padding-bottom: 4vw;
+}
+
+/* #profile {
+    width: 50%;
+    height: auto;
+} */
+
+#main-img {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#subtitle {
+    font-size: 1.6vw;
+    color: #D99560;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 3.6vw;
+    font-weight: bold;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+#main-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+#nav-logo {
+    float: right;
+    width: 3.6vw;
+    height: auto;
+}
+
+/* Add a color to the active/current link */
+header a.active {
+    color: #D99560;
+}
+
+.page-link {
+    padding-right: 4vw;
+    text-decoration: none;
+    color: #6E4D3E;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+/* Change the display of links on hover */
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding-top: 4vw;
+    padding-bottom: 8vw;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "header" "main" "footer";
+    width: 72%;
+    height: auto;
+    margin: auto;
+    background-color: #F5E9DB;
+    color: #6E4D3E;
+    font-family: "Open Sans";
+  }
